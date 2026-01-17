@@ -1,11 +1,17 @@
 {
   "name": "setulink",
-  "version": "1.0.0",
+  "version": "3.0.1",
   "description": "Temporary public URL for local servers (testing only)",
   "main": "index.js",
   "bin": {
-    "setulink": "./bin/index.js"
+    "setulink": "bin/index.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +26,12 @@
   "dependencies": {
     "chalk": "^5.6.2",
     "clipboardy": "^5.0.2",
-    "commander": "^14.0.2",
     "cloudflared": "^0.7.1",
+    "commander": "^14.0.2",
     "ora": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PARTH-JADAV20/setulink.git"
   }
 }

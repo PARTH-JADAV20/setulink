@@ -1,0 +1,9 @@
+# Ignore almost everything...
+*
+
+# ...except the important things
+!package.json
+!README.md
+!LICENSE
+!bin/
+!src/
