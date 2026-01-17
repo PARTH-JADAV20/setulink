@@ -71,7 +71,19 @@ Since Vite 6+ has strict host and security requirements, `setulink` offers to in
 ## 🚀 Usage
 
 ### Installation
-Clone the repository and link it globally:
+
+**From npm (Global):**
+```bash
+npm install -g setulink@latest
+```
+
+**Using npx (No Installation Required):**
+```bash
+npx setulink@latest
+```
+
+**From Source:**
+Clone the repository and link it locally:
 ```bash
 npm install
 npm link
